@@ -24,7 +24,7 @@ function App() {
         element:<Customize/>
       },
       {
-        path:'/*',
+        path:'*',
         element:<NotFound/>
       }
     ],
