@@ -4,6 +4,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import AppLayout from './Layout/appLayout'
 import Home from './pages/Home'
 import Customize from './pages/Customize'
+import NotFound from './pages/NotFound'
 
 function App() {
   const router = createBrowserRouter([{
@@ -22,6 +23,10 @@ function App() {
         path:'/customize',
         element:<Customize/>
       },
+      {
+        path:'/*',
+        element:<NotFound/>
+      }
     ],
   }])
   return (
