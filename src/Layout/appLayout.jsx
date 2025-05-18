@@ -3,7 +3,10 @@ import { Link, Outlet } from 'react-router-dom';
 
 const AppLayout = () => {
   return (
-    <div className=" flex flex-col p-4  bg-gradient-to-br from-green-100 to-green-200">
+    <div className=" flex flex-col p-4 " 
+     style={{
+       backgroundImage: 'linear-gradient(to bottom right, #d1fae5, #bbf7d0)'}}
+      >
       {/* Header */}
       <header className=" text-green-800 font-[cursive] flex items-center justify-between ">
         <div className="flex items-center gap-2">
