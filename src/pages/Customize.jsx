@@ -17,7 +17,6 @@ const Customize = () => {
   const [selectedBg, setSelectedBg] = useState(bg1);
 
   const location = useLocation();
-  const navigate = useNavigate();
 
   const reverseBgMap = {
     [bg1]: 1,

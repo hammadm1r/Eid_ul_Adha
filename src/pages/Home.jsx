@@ -15,7 +15,7 @@ import bg5 from '../assets/bg5.png';
 
 const Home = () => {
   const canvasRef = useRef();
-  const [userName, setUserName] = useState('');
+  const [userName, setUserName] = useState('Hammad Meer');
   const [textColor, setTextColor] = useState('#065f46');
   const [fontSize, setFontSize] = useState('20');
   const [isBold, setIsBold] = useState(true);
